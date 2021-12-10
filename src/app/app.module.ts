@@ -1,3 +1,4 @@
+import { CadastroPjModule } from './autentications/cadastro-pj/cadastro-pj.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatButtonModule } from '@angular/material/button';
@@ -16,6 +17,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    CadastroPjModule,
     FlexLayoutModule,
     LoginModule,
     LoginRoutingModule,
