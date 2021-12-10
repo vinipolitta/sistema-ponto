@@ -8,6 +8,7 @@ import { LoginModule, LoginRoutingModule } from './autentications';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -20,8 +21,8 @@ import { AppComponent } from './app.component';
     CadastroPjModule,
     FlexLayoutModule,
     LoginModule,
+    SharedModule,
     LoginRoutingModule,
-
 
     AppRoutingModule,
   ],

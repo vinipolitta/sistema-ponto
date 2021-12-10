@@ -15,6 +15,7 @@ import { MatInputModule } from '@angular/material/input';
 
 import { CadastrarPjComponent } from './components/cadastrar-pj/cadastrar-pj.component';
 import { CadastroPjComponent } from './components/cadastro-pj.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 
@@ -33,6 +34,7 @@ import { CadastroPjComponent } from './components/cadastro-pj.component';
     MatSnackBarModule,
 
     CommonModule,
+    SharedModule,
     CadastroPjRoutingModule,
     FlexLayoutModule,
     RouterModule,
